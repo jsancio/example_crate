@@ -1,0 +1,11 @@
+[package]
+name = "example_crate"
+version = "0.1.0"
+authors = ["José Armando García Sancio <jsancio@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[[example]]
+name = "b"
+crate-type = ["lib"]
